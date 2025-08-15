@@ -11,6 +11,17 @@ class Shape:
     def area(self):
         pass
 
+# DECORATORS:
+# This:
+# @my_decorator
+# def my_function():
+#    pass
+
+# Is exactly the same as:
+# def my_function():
+#    pass
+# my_function = my_decorator(my_function)
+
 
 class Circle(Shape):
     def __init__(self, radius):
